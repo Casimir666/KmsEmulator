@@ -2,6 +2,6 @@
 {
     public interface ILogger
     {
-        void LogMessage(string message, bool timestamp = false);
+        void LogMessage(string message, bool timestamp = true);
     }
 }

@@ -4,7 +4,7 @@ namespace KMSEmulator.Logging
 {
     public class ConsoleLogger : ILogger
     { 
-        public void LogMessage(string message, bool timestamp = false)
+        public void LogMessage(string message, bool timestamp = true)
         {
             if (timestamp)
             {
